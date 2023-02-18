@@ -3,18 +3,19 @@
 /**
  * main - main function
  *
- * return: always 0
+ * return: 0 on success, non-zero on failure
  */
 
 int main(void)
 {
 	int i;
-	char j;
 
-	for (i = 0 ; i < 10 ; i++)
+	for (i = 0 ; i < 16 ; i++)
+		if (i < 10)
 		putchar(i + '0');
-	for (j = 'a' ; j <= 'f' ; j++)
-		putchar(j);
+		else 
+		putchar(i - 10 + 'a');
 	putchar('\n');
+
 	return (0);
 }
