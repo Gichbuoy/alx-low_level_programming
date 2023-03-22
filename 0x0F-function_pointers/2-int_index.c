@@ -4,7 +4,7 @@
  * int_index - return index place if comparison = true, else -1
  * @array: array
  * @size: size of elements in array
- * @cmp: pointer tothe comparing function
+ * @cmp: pointer to the comparing function
  * Return: always 0
  */
 int int_index(int *array, int size, int (*cmp)(int))
