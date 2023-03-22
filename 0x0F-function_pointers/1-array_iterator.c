@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  * array_iterator - prints each array on a new line
- * @array: array
- * @size: numnwer of elements to print
+ * @array: array 
+ * @size: number of elements to print
  * @action: pointer to print in regular or hex
  * Return: void
  */
