@@ -2,7 +2,7 @@
 #include "function_pointers.h"
 
 /**
- * print_elem - prints an integer
+ * print_elem - prints an intege element
  * @elem: the integer to print
  *
  * Return: Nothing.
