@@ -1,1 +1,1 @@
-Structures, typedef
+Structures (struct), typedef
