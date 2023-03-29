@@ -2,10 +2,10 @@
 #include "main.h"
 
 /**
-   * _atoi - function converts string to an integer
-    * @s: Pointer parameter
-     * Return: returns an integer value
-*/
+  * _atoi - function converts string to an integer
+  * @s: Pointer parameter
+  * Return: returns an integer value
+  */
 int _atoi(char *s)
 {
 	unsigned int count = 0, size = 0, j = 0, k = 1, m = 1, i;
