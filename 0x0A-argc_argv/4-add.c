@@ -2,11 +2,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 /**
-   * main - main funct
-    * @argc: param count
-     * @argv: param poiter
-      * Return: int
-*/
+ * main - main function
+ * @argc: argument count
+ * @argv: argument vector
+ * Return: integer
+ */
 int main(int argc, char *argv[])
 	{
 		int i, j, sum = 0;
