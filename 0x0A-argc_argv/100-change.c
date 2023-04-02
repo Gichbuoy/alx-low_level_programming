@@ -1,16 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-   * main - function
-    * @argc: length of argv
-     * @argv: number of argument
-      * Return: Always 0
-*/
+ * main - function
+ * @argc: length of argv
+ * @argv: number of argument
+ * Return: Always 0 (success)
+ */
 int main(int argc, char *argv[])
 {
 	/*Declaring variables*/
 	int position, total, change, aux;
-	int coins[] = {25, 10, 5, 2, 1}; /*Array int*/
+	int coins[] = {25, 10, 5, 2, 1}; /*Array integer*/
 
 	position = total = change = aux = 0;
 
