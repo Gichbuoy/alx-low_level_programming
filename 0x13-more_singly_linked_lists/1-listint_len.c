@@ -3,7 +3,7 @@
  * listint_len - returns the number of elememnts ina linked list
  * @h: linked list of type list_t to traverse
  *
- * REturn: the number of nodes
+ * Return: the number of nodes
  */
 size_t listint_len(const listint_t *h)
 {
