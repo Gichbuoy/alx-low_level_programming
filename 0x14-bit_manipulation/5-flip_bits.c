@@ -8,15 +8,16 @@
  */
 unsigned int flip_bits(unsigned long int n, unsigned long int m)
 {
-	int j, count = 0;
-	unsigned long int current;
-	unsigned long int exclusive = n ^ m;
+	unsigned int j, count = 0;
+	unsigned long int k = sizeof(unsigned long int) * 8;
 
-	for (j = 63 ; j >= 0 ; j++)
+	for (j = 0 ; j < k ; j++)
 	{
-		current = exclusive >> j;
-		if (current & 1)
-			count++;
+		if ((m & 1) != (n & 1))
+			count += 1;
+		n = n >> 1;
+		m = m >> 1;
 	}
+
 	return (count);
 }
