@@ -1,1 +1,2 @@
-Second C readme
+getting started....
+
