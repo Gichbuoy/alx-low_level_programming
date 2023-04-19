@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * _memset - copy char
+ * _memset - copy character
  * @s: string
  * @b: input
  * @n: bytes
