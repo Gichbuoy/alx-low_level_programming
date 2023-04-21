@@ -39,7 +39,7 @@ void print_name_uppercase(char *name)
 }
 
 /**
- * main - check the code
+ * main - checks the code
  *
  * Return: Always 0.
  */
