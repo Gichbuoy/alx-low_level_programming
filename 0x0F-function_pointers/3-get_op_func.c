@@ -8,7 +8,7 @@
  * @s: The operator passed as argument
  *
  * Return: A pointer to the function c0rresponding to
- *  the operator given as a parameter
+ *  the operator given as the parameter
  */
 int (*get_op_func(char *s))(int, int)
 {
